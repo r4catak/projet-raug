@@ -10,7 +10,7 @@ Brossard Matthieu et Chen Cyril
 Ce projet est une application web de visualisation de protéines utilisant Three.js. Il permet de charger et d'afficher des modèles 
 de protéines en 3D à partir des fichiers fournis par AlphaFold. Ce visualiseur représente les atomes et les
 liaisons des protéines de manière interactive avec la possibilité justement de manipuler la vue en 3D pour explorer la structure du molécule.
-[Le projet est disponible ici.](https://matthieu-brossard.github.io/projet-raug/)
+[Le projet est disponible ici.](https://r4catak.github.io/projet-raug/)
 
 ## Fonctionnalités
 
