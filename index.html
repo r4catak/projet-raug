@@ -8,7 +8,7 @@
 <body>
   <div id="controls">
     <label for="protein-id">Enter Protein ID:</label>
-    <input type="text" id="protein-id" value="AF-P69905-F1-model_v1">
+    <input type="text" id="protein-id" value="Q5VSL9">
     <button id="load-protein">Load Protein</button>
   </div>
   
@@ -127,8 +127,10 @@
       return atoms;
     }
 
-    function loadProtein(proteinID) {
-      const pdbUrl = `https://alphafold.ebi.ac.uk/files/${proteinID}.pdb`;
+    async function loadProtein(proteinID) {
+	  const response = await fetch(`https://alphafold.ebi.ac.uk/api/prediction/${proteinID}`);
+	  const data = await response.json();
+      const pdbUrl = data[0].pdbUrl; // URL directe et à jour du fichier PDB
       fetch(pdbUrl)
         .then(response => {
           if (!response.ok) {
