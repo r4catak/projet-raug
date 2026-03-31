@@ -1,5 +1,6 @@
 # Visualiseur de protéines (Projet Réalité augmentée)
-![](https://cdn.discordapp.com/attachments/1290293305116069930/1302370575083372664/image.png?ex=6727de9d&is=67268d1d&hm=19576247ee22ab755471fa0dab2e405c9bfa15325931e5cd5ec5f2578bf275c2&)
+<img width="543" height="376" alt="image" src="https://github.com/user-attachments/assets/334863e0-1525-4796-95fc-19b77593ec17" />
+
 
 ## Membres du groupe
 
