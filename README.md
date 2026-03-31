@@ -28,7 +28,7 @@ Nous avons utilisé Three.js pour effectuer ce projet. Cette outils nous a permi
 
 - Lancez index.html dans un navigateur web compatible (Google chrome).
 - Vous allez avoir par défaut un molécule mais vous pouvez mettre d'autre molécule dans le champ saisie l'identifiant d'une protéine au
-format AF-Pxxxxxx-F1-model_v1 (par exemple : AF-P69905-F1-model_v1 pour l'hémoglobine).
+format de alphafold (par exemple : Q5VSL9).
 - Une fois chargée, la protéine sera affichée en 3D et vous pourrez utiliser la souris pour faire pivoter, zoomer et explorer la structure du molécule.
 
 ## Détails du Code
